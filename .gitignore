@@ -58,6 +58,7 @@ sysinfo.txt
 *.mp3
 *.backup
 
+
 # Crashlytics generated file
 crashlytics-build.properties
 
