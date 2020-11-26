@@ -35,7 +35,7 @@ public class bandit3ia : MonoBehaviour
             if (timeRemaining <= 0)
             {
                 botHealth.TakeDamage(100);
-                timeRemaining = 4;
+                timeRemaining = 3;
             }
             if (bandit3Health.currentHealth <= 0)
             {
