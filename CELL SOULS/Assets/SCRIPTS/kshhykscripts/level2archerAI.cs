@@ -17,7 +17,7 @@ public class level2archerAI : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("ThirdPersonController_LITE Variant").transform;
+        player = GameObject.Find("ThirdPersonController_LITE Variant (1) Variant").transform;
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
