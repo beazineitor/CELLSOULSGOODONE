@@ -25,6 +25,13 @@ public class level2archerhealth : MonoBehaviour
             print("enemyattacked");
             print("currentHealth " + currentHealth);
         }
+        if (other.gameObject.tag == "cosa")
+        {
+            TakeDamageEnemy(8000);
+            print("currentHealth " + currentHealth);
+
+
+        }
     }
     private void OnTriggerExit(Collider other)
     {

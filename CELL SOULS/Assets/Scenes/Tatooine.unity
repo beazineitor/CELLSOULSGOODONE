@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9654846c8eb1d4c47890ec84568b7f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludRobot: {fileID: 0}
+  saludRobot: {fileID: 996654533}
 --- !u!65 &1056236
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7669,7 +7669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb3243c78416244484e5dcbcc3a5bf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludRobot: {fileID: 0}
+  saludRobot: {fileID: 996654533}
 --- !u!65 &181373120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8288,7 +8288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb3243c78416244484e5dcbcc3a5bf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludRobot: {fileID: 0}
+  saludRobot: {fileID: 996654533}
 --- !u!65 &193897409
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15314,7 +15314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52056cde2e1d8df4694ee55f0849a592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludRobot: {fileID: 0}
+  saludRobot: {fileID: 996654533}
 --- !u!65 &369127611
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15708,7 +15708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb3243c78416244484e5dcbcc3a5bf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludRobot: {fileID: 0}
+  saludRobot: {fileID: 996654533}
 --- !u!65 &375743203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42208,7 +42208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb3243c78416244484e5dcbcc3a5bf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludRobot: {fileID: 0}
+  saludRobot: {fileID: 996654533}
 --- !u!65 &857339177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50688,6 +50688,115 @@ Transform:
   m_Father: {fileID: 1434996730}
   m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 62.175003, z: 0}
+--- !u!1 &1099560351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1099560352}
+  - component: {fileID: 1099560356}
+  - component: {fileID: 1099560355}
+  - component: {fileID: 1099560354}
+  - component: {fileID: 1099560353}
+  m_Layer: 0
+  m_Name: pruebadecheckpoint (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1099560352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099560351}
+  m_LocalRotation: {x: -0, y: 0.7179938, z: -0, w: 0.6960496}
+  m_LocalPosition: {x: -140.5, y: -3.6, z: -9.18}
+  m_LocalScale: {x: 2.554, y: 5.9589, z: 26.45439}
+  m_Children:
+  - {fileID: 1451585860}
+  m_Father: {fileID: 1434996730}
+  m_RootOrder: 136
+  m_LocalEulerAnglesHint: {x: 0, y: 91.77801, z: 0}
+--- !u!114 &1099560353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099560351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8391e60c12b506e4b9fa0615e46b803f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawner: {fileID: 1587714549}
+  newrespawnPoint: {fileID: 1451585860}
+--- !u!65 &1099560354
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099560351}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.1404824, z: 0.29598635}
+  m_Center: {x: 2.6809294e-10, y: 0.5702412, z: 0.02415754}
+--- !u!23 &1099560355
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099560351}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1099560356
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099560351}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1100741521
 GameObject:
   m_ObjectHideFlags: 0
@@ -60934,7 +61043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9654846c8eb1d4c47890ec84568b7f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludRobot: {fileID: 0}
+  saludRobot: {fileID: 996654533}
 --- !u!65 &1285218144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69189,6 +69298,7 @@ Transform:
   - {fileID: 385980175}
   - {fileID: 433721152}
   - {fileID: 1507730189}
+  - {fileID: 1099560352}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -69697,6 +69807,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447187731}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1451585859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1451585860}
+  m_Layer: 0
+  m_Name: newspawnpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1451585860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451585859}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.58, y: 0.576, z: 0.0769}
+  m_LocalScale: {x: 0.3915427, y: 0.1678162, z: 0.037800908}
+  m_Children: []
+  m_Father: {fileID: 1099560352}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1451637798
 GameObject:
   m_ObjectHideFlags: 0
@@ -69835,7 +69975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9654846c8eb1d4c47890ec84568b7f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludRobot: {fileID: 0}
+  saludRobot: {fileID: 996654533}
 --- !u!65 &1452124733
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -79748,7 +79888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9654846c8eb1d4c47890ec84568b7f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludRobot: {fileID: 0}
+  saludRobot: {fileID: 996654533}
 --- !u!65 &1709178689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84858,7 +84998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9654846c8eb1d4c47890ec84568b7f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludRobot: {fileID: 0}
+  saludRobot: {fileID: 996654533}
 --- !u!65 &1811247522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -110212,6 +110352,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 154377997529116593, guid: 48f4ea70be26e8a43b1cd86fc5e66d8d,
+        type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1587714549}
     - target: {fileID: 154377997911052630, guid: 48f4ea70be26e8a43b1cd86fc5e66d8d,
         type: 3}
       propertyPath: m_AnchorMax.x

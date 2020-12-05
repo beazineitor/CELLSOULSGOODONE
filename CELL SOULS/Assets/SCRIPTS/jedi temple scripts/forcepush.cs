@@ -26,9 +26,9 @@ public class forcepush : MonoBehaviour
         {
             pushAmount += chargeRate;
             pushRadius += chargeRate;
-           // if(pushRadius > 25)
+            if(pushRadius > 25)
             {
-                //pushRadius = 25;
+                pushRadius = 25;
             }
         }
     }
