@@ -26,7 +26,7 @@ public class bossbanditia : MonoBehaviour
         {
             agent.speed = 0;
         }
-        if (Vector3.Distance(target.transform.position, transform.position) <= 4)
+        if (Vector3.Distance(target.transform.position, transform.position) <= 5)
         {
 
             if (timeRemaining > 0)
