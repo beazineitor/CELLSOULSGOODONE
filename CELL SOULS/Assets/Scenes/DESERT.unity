@@ -7709,7 +7709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4afcd118f3d9b584aa0f3fadc09104bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 996654529}
   agent: {fileID: 183443740}
   distance: 10
   botHealth: {fileID: 0}
@@ -109440,12 +109440,12 @@ PrefabInstance:
     - target: {fileID: 4918309795095247792, guid: 48f4ea70be26e8a43b1cd86fc5e66d8d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -229.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4918309795095247792, guid: 48f4ea70be26e8a43b1cd86fc5e66d8d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.12000084
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4918309795095247792, guid: 48f4ea70be26e8a43b1cd86fc5e66d8d,
         type: 3}

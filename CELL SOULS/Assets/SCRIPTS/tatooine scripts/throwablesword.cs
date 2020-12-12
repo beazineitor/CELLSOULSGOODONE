@@ -18,7 +18,7 @@ public class throwablesword : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) && saberPoints.currentStamina > 0)
         {
             ThrowSword();
             objectToBeActivated.SetActive(true);

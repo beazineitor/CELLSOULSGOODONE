@@ -8,7 +8,7 @@ public class banditIA1 : MonoBehaviour
     public UnityEngine.AI.NavMeshAgent agent;
     public float distance;
     public playerhealth botHealth;
-    public float timeRemaining = 3;
+    public float timeRemaining = 1;
     public BANDITLEVEL1HEALTH bandit1Health;
     public GameObject objectTobbeDEactivated;
 
@@ -36,7 +36,7 @@ public class banditIA1 : MonoBehaviour
             {
                 botHealth.TakeDamage(50);
                 print(botHealth.currentHealth);
-                timeRemaining = 2;
+                timeRemaining = 1;
             }
             if (bandit1Health.currentHealth <= 0)
             {

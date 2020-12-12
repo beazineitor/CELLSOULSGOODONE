@@ -10,6 +10,7 @@ public class forcepush : MonoBehaviour
     private float radiusStart;
     public float pushRadius;
     public bool showGizmos = true;
+    public BarraDeEstamina estamina;
 
     private void Start()
     {
@@ -18,9 +19,10 @@ public class forcepush : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyUp(KeyCode.E))
+        if (Input.GetKeyUp(KeyCode.E)&&estamina.currentStamina>0)
         {
             DoPush();
+            estamina.UseStamina(125);
         }
         if (Input.GetKey(KeyCode.E))
         {

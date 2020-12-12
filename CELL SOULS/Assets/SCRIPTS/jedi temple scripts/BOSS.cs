@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BOSS : MonoBehaviour
 {
-    public int maxHealth = 40000;
+    public int maxHealth = 20000;
     public int currentHealth;
     public BarraDeSalud healthBar;
     public GameObject objectTobbeDEactivated;

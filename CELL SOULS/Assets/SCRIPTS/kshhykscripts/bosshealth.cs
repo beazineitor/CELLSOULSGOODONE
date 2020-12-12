@@ -27,7 +27,7 @@ public class bosshealth : MonoBehaviour
         }
         if (other.gameObject.tag == "cosa")
         {
-            TakeDamageEnemy(8000);
+            TakeDamageEnemy(4000);
             print("currentHealth " + currentHealth);
         }
     }

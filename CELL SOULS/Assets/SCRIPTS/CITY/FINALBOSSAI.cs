@@ -8,7 +8,7 @@ public class FINALBOSSAI : MonoBehaviour
     public UnityEngine.AI.NavMeshAgent agent;
     public float distance;
     public playerhealth botHealth;
-    public float timeRemaining = 5;
+    public float timeRemaining = 2;
     public FINALBOSSHEALTH FINALBOS;
     public GameObject objectTobbeDEactivated;
 
@@ -35,7 +35,7 @@ public class FINALBOSSAI : MonoBehaviour
             if (timeRemaining <= 0)
             {
                 botHealth.TakeDamage(700);
-                timeRemaining = 4;
+                timeRemaining = 2;
             }
             if (FINALBOS.currentHealth <= 0)
             {

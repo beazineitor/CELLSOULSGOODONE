@@ -35,7 +35,7 @@ public class BANDITLEVLE2IA : MonoBehaviour
             if (timeRemaining <= 0)
             {
                 botHealth.TakeDamage(50);
-                timeRemaining = 3;
+                timeRemaining = 1;
             }
             if (bandit2Health.currentHealth <= 0)
             {
